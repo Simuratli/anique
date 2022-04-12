@@ -1,3 +1,5 @@
+import React from 'react'
 export interface SearchPorpTypes {
-    open:boolean
+    open:boolean,
+    setOpen:React.Dispatch<React.SetStateAction<boolean>>
 }

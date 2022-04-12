@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <nav className='navbar'>
       <h1 className='navbar__logo'>Aniquo</h1>
-      <Search open={open} />
+      <Search open={open} setOpen={setOpen} />
 
       <div className='navbar__search'>
 
