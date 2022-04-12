@@ -1,0 +1,1 @@
+export const GET_RANDOM_QUOTE = 'GET_RANDOM_QUOTE'

@@ -1,0 +1,36 @@
+.random{
+    display: grid;
+    place-content: center;
+    height: 90%;
+
+    &__header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: rem(20);
+    }
+
+    &__container{
+        min-width: rem(250);
+        max-width: rem(400);
+    }
+}
+
+
+.refresh{
+    background:var(--background);
+    border: 0;
+    outline: 0;
+    height: rem(20);
+    width: max-content;
+    display: grid;
+    place-content: center;
+    height: max-content;
+    border: rem(1) solid var(--white);
+    border-radius: rem(50);
+    cursor: pointer;
+
+    svg{
+        width: rem(12);
+    }
+}

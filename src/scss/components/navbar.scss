@@ -1,0 +1,23 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 0.055em;
+        color: #000000;
+    }
+
+    &__link{
+        img{
+            width: rem(35);
+            height: rem(35);
+            border-radius: rem(8);
+            object-fit: cover;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+html {
+	font-size: 100%;
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+	font-family: var(--font-sogoe);
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: var(--background--white);
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background: var(--select-background-color); 
+}
+   
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--disable-text-color);
+     
+}

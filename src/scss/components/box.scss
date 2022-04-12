@@ -1,0 +1,40 @@
+.box{
+    background: var(--background);
+    border: rem(1) solid var(--white);
+    box-sizing: border-box;
+    border-radius: rem(50);
+    margin-bottom: rem(20);
+    padding: rem(25);
+
+    &.small{
+        font-style: normal;
+        font-weight: 400;
+        font-size: rem(10);
+        line-height: rem(14);
+        color: var(--red);
+        padding: rem(5) rem(25);
+        height: rem(25);
+        width:max-content;
+        margin-bottom: 0;
+        a{
+            color: var(--red);
+        }
+        
+    }
+
+    &.header{
+        font-style: normal;
+        font-weight: 700;
+        font-size: rem(20);
+        padding:rem(25);
+        line-height: rem(36);
+        color: var(--black);
+        min-width: rem(300);
+    }
+
+    &.quote{
+        font-size: rem(18);
+        padding:rem(20);
+        color: var(--black);
+    }
+}
