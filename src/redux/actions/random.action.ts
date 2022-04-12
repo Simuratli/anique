@@ -5,3 +5,5 @@ export const setRandomData = (payload: RandomQuoteState) => ({
     type: GET_RANDOM_QUOTE,
     payload
 })
+
+

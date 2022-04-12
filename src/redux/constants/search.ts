@@ -1,0 +1,2 @@
+export const SEARCH_TEXT = 'SEARCH_TEXT'
+export const SET_SEARCH_RESPONSE = 'SET_SEARCH_RESPONSE'
