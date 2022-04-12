@@ -3,11 +3,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: rem(30);
 
     &__logo{
         font-weight: 600;
-        font-size: 18px;
-        line-height: 27px;
+        font-size: rem(18);
+        line-height: rem(27);
         letter-spacing: 0.055em;
         color: #000000;
     }
