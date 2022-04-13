@@ -2,9 +2,12 @@
     height: 100vh;
     width: 100%;
     background: var(--background);
-   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
     &__container{
-        background: var(--background);
+        background: rgba($color: #000000, $alpha: 0.7);
         box-sizing: border-box;
         box-shadow: rem(30) rem(70) rem(120) rgba(27, 49, 66, 0.13);
         min-height:100vh;

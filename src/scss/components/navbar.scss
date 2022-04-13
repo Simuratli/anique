@@ -10,7 +10,9 @@
         font-size: rem(18);
         line-height: rem(27);
         letter-spacing: 0.055em;
-        color: #000000;
+        a{
+            color: var(--white);
+        }
     }
 
     &__search{
